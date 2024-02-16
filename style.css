@@ -1,0 +1,112 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url('https://cdn.discordapp.com/attachments/1146969937777270864/1148044725509701774/Screenshot_126.png?ex=65dbd478&is=65c95f78&hm=18536f488bdea3c7638f56f43cf972128b583657800d6f8d8e732debe3e733a7&');
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+}
+
+.container {
+  margin-top: 100px;
+}
+
+.invitation-box {
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+}
+
+h1 {
+  color: #000; /* Título em preto */
+  font-size: 24px;
+  margin-bottom: 30px;
+}
+
+.logo {
+  margin-bottom: 20px;
+}
+
+.logo img {
+  width: 200px; /* Ajuste o tamanho conforme necessário */
+  border-radius: 50%; /* Adiciona borda arredondada à imagem */
+}
+
+.button-wrapper {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+button {
+  background-color: #f57c00;
+  color: #fff;
+  padding: 15px 30px;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+  outline: none;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+}
+
+button:hover {
+  background-color: #ffa726;
+  transform: translateY(-3px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+button:focus {
+  box-shadow: 0 0 0 2px #ffa726;
+}
+
+.decline-button {
+  background-color: #d32f2f;
+}
+
+.social-buttons {
+  margin-top: 30px;
+}
+
+.social-buttons a {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.social-buttons img {
+  width: 40px;
+  border-radius: 50%;
+  transition: transform 0.3s ease;
+}
+
+.social-buttons img:hover {
+  transform: scale(1.1);
+}
+
+.participants {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.participant-box {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  margin: 0 10px;
+}
+
+.participant-box img {
+  width: 80px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.participant-name {
+  font-weight: bold;
+}
